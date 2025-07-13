@@ -1,0 +1,12 @@
+.navigator-container {
+    background-color: #2A2A2A;
+    height: 20vh;
+    width: 100vw;
+}
+
+.navigator-subcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    height: 10%;
+}

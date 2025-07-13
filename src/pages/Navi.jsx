@@ -1,19 +1,13 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
-import '../App.css'
+import '../styles/Navi.css'
 
 export default function Navi() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className='navigator-container'>
+      <div className='navigator-subcontainer'>
+        <h1>1</h1>
+        <h1>2</h1>
+        <h1>3</h1>
       </div>
-    </>
+    </div>
   )
 }
