@@ -1,5 +1,30 @@
 .hero-container {
     background-color: #1E1E1E;
-    height: 90vh;
-    width: 100vw;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.hero-subcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-statement {
+    width: 90%;
+    padding: 10px;
+}
+
+.hero-statement p {
+    text-align: justify;
+    color: #FFEFD5;
+}
+
+.hero-logo {
+    width: 10%;
 }
